@@ -1,0 +1,688 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B34F6C9F1C744CBA0034DB18 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B34F6C9E1C744CBA0034DB18 /* main.m */; };
+		B34F6CA21C744CBA0034DB18 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B34F6CA11C744CBA0034DB18 /* AppDelegate.m */; };
+		B34F6CA81C744CBA0034DB18 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B34F6CA61C744CBA0034DB18 /* Main.storyboard */; };
+		B34F6CAA1C744CBA0034DB18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B34F6CA91C744CBA0034DB18 /* Assets.xcassets */; };
+		B34F6CAD1C744CBA0034DB18 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B34F6CAB1C744CBA0034DB18 /* LaunchScreen.storyboard */; };
+		B34F6CDD1C7458C40034DB18 /* MomentsPublishViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B34F6CDA1C7458C40034DB18 /* MomentsPublishViewController.m */; };
+		B34F6CDE1C7458C40034DB18 /* MomentsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B34F6CDC1C7458C40034DB18 /* MomentsViewController.m */; };
+		B34F6CE81C7459580034DB18 /* MomentsCellViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B34F6CE51C7459580034DB18 /* MomentsCellViewModel.m */; };
+		B34F6CE91C7459580034DB18 /* MomentsViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B34F6CE71C7459580034DB18 /* MomentsViewModel.m */; };
+		B34F6CEC1C7459730034DB18 /* MomentsCommentCellViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B34F6CEB1C7459730034DB18 /* MomentsCommentCellViewModel.m */; };
+		B34F6CEF1C7459F30034DB18 /* MomentsHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = B34F6CEE1C7459F30034DB18 /* MomentsHeaderView.m */; };
+		B34F6CF21C745D180034DB18 /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = B34F6CF11C745D180034DB18 /* Utils.m */; };
+		B34F6CF41C7467470034DB18 /* Moments.plist in Resources */ = {isa = PBXBuildFile; fileRef = B34F6CF31C7467470034DB18 /* Moments.plist */; };
+		B3A768E71C75731B009D3D66 /* MomentsBaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B3A768E01C75731B009D3D66 /* MomentsBaseTableViewCell.m */; };
+		B3A768E81C75731B009D3D66 /* MomentsCommentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B3A768E21C75731B009D3D66 /* MomentsCommentCell.m */; };
+		B3A768E91C75731B009D3D66 /* MomentsImageCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B3A768E41C75731B009D3D66 /* MomentsImageCollectionViewCell.m */; };
+		B3A768EA1C75731B009D3D66 /* MomentsTableViewCellFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = B3A768E61C75731B009D3D66 /* MomentsTableViewCellFactory.m */; };
+		B3A768ED1C75AAD0009D3D66 /* MomentsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B3A768EC1C75AAD0009D3D66 /* MomentsModel.m */; };
+		B3A768F01C75CB31009D3D66 /* MomentsPublishViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B3A768EF1C75CB31009D3D66 /* MomentsPublishViewModel.m */; };
+		B3A769381C75CEF2009D3D66 /* MomentsPublishPictureCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B3A769371C75CEF2009D3D66 /* MomentsPublishPictureCell.m */; };
+		B3A769471C75D3BB009D3D66 /* PhotoLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = B3A7693C1C75D3BB009D3D66 /* PhotoLoadingView.m */; };
+		B3A769481C75D3BB009D3D66 /* PhotoProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = B3A7693E1C75D3BB009D3D66 /* PhotoProgressView.m */; };
+		B3A769491C75D3BB009D3D66 /* PhotoView.m in Sources */ = {isa = PBXBuildFile; fileRef = B3A769401C75D3BB009D3D66 /* PhotoView.m */; };
+		B3A7694A1C75D3BB009D3D66 /* Photo.m in Sources */ = {isa = PBXBuildFile; fileRef = B3A769431C75D3BB009D3D66 /* Photo.m */; };
+		B3A7694B1C75D3BB009D3D66 /* PhotoBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = B3A769451C75D3BB009D3D66 /* PhotoBrowser.m */; };
+		B3A7696D1C75D414009D3D66 /* PhotoPickerCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B3A7694F1C75D414009D3D66 /* PhotoPickerCollectionViewCell.m */; };
+		B3A7696E1C75D414009D3D66 /* PhotoPickerGroupCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B3A769511C75D414009D3D66 /* PhotoPickerGroupCell.m */; };
+		B3A7696F1C75D414009D3D66 /* PhotoPickerGroupCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3A769521C75D414009D3D66 /* PhotoPickerGroupCell.xib */; };
+		B3A769701C75D414009D3D66 /* PhotoAssets.m in Sources */ = {isa = PBXBuildFile; fileRef = B3A769551C75D414009D3D66 /* PhotoAssets.m */; };
+		B3A769711C75D414009D3D66 /* PhotoPickerCollectionViewViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B3A769571C75D414009D3D66 /* PhotoPickerCollectionViewViewModel.m */; };
+		B3A769721C75D414009D3D66 /* PhotoPickerGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = B3A769591C75D414009D3D66 /* PhotoPickerGroup.m */; };
+		B3A769731C75D414009D3D66 /* PhotoPickerGroupCellViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B3A7695B1C75D414009D3D66 /* PhotoPickerGroupCellViewModel.m */; };
+		B3A769741C75D414009D3D66 /* PhotoPickerViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B3A7695D1C75D414009D3D66 /* PhotoPickerViewModel.m */; };
+		B3A769751C75D414009D3D66 /* PhotoPickerAssetsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3A7695F1C75D414009D3D66 /* PhotoPickerAssetsViewController.m */; };
+		B3A769761C75D414009D3D66 /* PhotoPickerGroupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3A769611C75D414009D3D66 /* PhotoPickerGroupViewController.m */; };
+		B3A769771C75D414009D3D66 /* PhotoPickerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B3A769631C75D414009D3D66 /* PhotoPickerManager.m */; };
+		B3A769781C75D414009D3D66 /* PhotoPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3A769651C75D414009D3D66 /* PhotoPickerViewController.m */; };
+		B3A769791C75D414009D3D66 /* PhotoUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = B3A769671C75D414009D3D66 /* PhotoUtils.m */; };
+		B3A7697A1C75D414009D3D66 /* PhotoPickerCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = B3A7696A1C75D414009D3D66 /* PhotoPickerCollectionView.m */; };
+		B3A7697B1C75D414009D3D66 /* PhotoPickerImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = B3A7696C1C75D414009D3D66 /* PhotoPickerImageView.m */; };
+		CB3ABB9D5877FC4E30FCD635 /* Pods_Moments.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ED404C00B47B0617B64B67C /* Pods_Moments.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		163E15701D86FDD50C72C6D4 /* Pods-Moments.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Moments.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Moments/Pods-Moments.debug.xcconfig"; sourceTree = "<group>"; };
+		3ED404C00B47B0617B64B67C /* Pods_Moments.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Moments.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		60B83ACB8D60BF435D9553BC /* Pods-Moments.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Moments.release.xcconfig"; path = "Pods/Target Support Files/Pods-Moments/Pods-Moments.release.xcconfig"; sourceTree = "<group>"; };
+		B34F6C9A1C744CBA0034DB18 /* Moments.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Moments.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B34F6C9E1C744CBA0034DB18 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B34F6CA01C744CBA0034DB18 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B34F6CA11C744CBA0034DB18 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B34F6CA71C744CBA0034DB18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B34F6CA91C744CBA0034DB18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B34F6CAC1C744CBA0034DB18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B34F6CAE1C744CBA0034DB18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B34F6CCD1C74575E0034DB18 /* Moments.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Moments.pch; sourceTree = "<group>"; };
+		B34F6CD91C7458C40034DB18 /* MomentsPublishViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MomentsPublishViewController.h; sourceTree = "<group>"; };
+		B34F6CDA1C7458C40034DB18 /* MomentsPublishViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MomentsPublishViewController.m; sourceTree = "<group>"; };
+		B34F6CDB1C7458C40034DB18 /* MomentsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MomentsViewController.h; sourceTree = "<group>"; };
+		B34F6CDC1C7458C40034DB18 /* MomentsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MomentsViewController.m; sourceTree = "<group>"; };
+		B34F6CE41C7459580034DB18 /* MomentsCellViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MomentsCellViewModel.h; sourceTree = "<group>"; };
+		B34F6CE51C7459580034DB18 /* MomentsCellViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MomentsCellViewModel.m; sourceTree = "<group>"; };
+		B34F6CE61C7459580034DB18 /* MomentsViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MomentsViewModel.h; sourceTree = "<group>"; };
+		B34F6CE71C7459580034DB18 /* MomentsViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MomentsViewModel.m; sourceTree = "<group>"; };
+		B34F6CEA1C7459730034DB18 /* MomentsCommentCellViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MomentsCommentCellViewModel.h; sourceTree = "<group>"; };
+		B34F6CEB1C7459730034DB18 /* MomentsCommentCellViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MomentsCommentCellViewModel.m; sourceTree = "<group>"; };
+		B34F6CED1C7459F30034DB18 /* MomentsHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MomentsHeaderView.h; sourceTree = "<group>"; };
+		B34F6CEE1C7459F30034DB18 /* MomentsHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MomentsHeaderView.m; sourceTree = "<group>"; };
+		B34F6CF01C745D180034DB18 /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
+		B34F6CF11C745D180034DB18 /* Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
+		B34F6CF31C7467470034DB18 /* Moments.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Moments.plist; sourceTree = "<group>"; };
+		B3A768DF1C75731B009D3D66 /* MomentsBaseTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MomentsBaseTableViewCell.h; sourceTree = "<group>"; };
+		B3A768E01C75731B009D3D66 /* MomentsBaseTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MomentsBaseTableViewCell.m; sourceTree = "<group>"; };
+		B3A768E11C75731B009D3D66 /* MomentsCommentCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MomentsCommentCell.h; sourceTree = "<group>"; };
+		B3A768E21C75731B009D3D66 /* MomentsCommentCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MomentsCommentCell.m; sourceTree = "<group>"; };
+		B3A768E31C75731B009D3D66 /* MomentsImageCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MomentsImageCollectionViewCell.h; sourceTree = "<group>"; };
+		B3A768E41C75731B009D3D66 /* MomentsImageCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MomentsImageCollectionViewCell.m; sourceTree = "<group>"; };
+		B3A768E51C75731B009D3D66 /* MomentsTableViewCellFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MomentsTableViewCellFactory.h; sourceTree = "<group>"; };
+		B3A768E61C75731B009D3D66 /* MomentsTableViewCellFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MomentsTableViewCellFactory.m; sourceTree = "<group>"; };
+		B3A768EB1C75AAD0009D3D66 /* MomentsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MomentsModel.h; sourceTree = "<group>"; };
+		B3A768EC1C75AAD0009D3D66 /* MomentsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MomentsModel.m; sourceTree = "<group>"; };
+		B3A768EE1C75CB31009D3D66 /* MomentsPublishViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MomentsPublishViewModel.h; sourceTree = "<group>"; };
+		B3A768EF1C75CB31009D3D66 /* MomentsPublishViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MomentsPublishViewModel.m; sourceTree = "<group>"; };
+		B3A769361C75CEF2009D3D66 /* MomentsPublishPictureCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MomentsPublishPictureCell.h; sourceTree = "<group>"; };
+		B3A769371C75CEF2009D3D66 /* MomentsPublishPictureCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MomentsPublishPictureCell.m; sourceTree = "<group>"; };
+		B3A7693B1C75D3BB009D3D66 /* PhotoLoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoLoadingView.h; sourceTree = "<group>"; };
+		B3A7693C1C75D3BB009D3D66 /* PhotoLoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoLoadingView.m; sourceTree = "<group>"; };
+		B3A7693D1C75D3BB009D3D66 /* PhotoProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoProgressView.h; sourceTree = "<group>"; };
+		B3A7693E1C75D3BB009D3D66 /* PhotoProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoProgressView.m; sourceTree = "<group>"; };
+		B3A7693F1C75D3BB009D3D66 /* PhotoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoView.h; sourceTree = "<group>"; };
+		B3A769401C75D3BB009D3D66 /* PhotoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoView.m; sourceTree = "<group>"; };
+		B3A769421C75D3BB009D3D66 /* Photo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Photo.h; sourceTree = "<group>"; };
+		B3A769431C75D3BB009D3D66 /* Photo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Photo.m; sourceTree = "<group>"; };
+		B3A769441C75D3BB009D3D66 /* PhotoBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoBrowser.h; sourceTree = "<group>"; };
+		B3A769451C75D3BB009D3D66 /* PhotoBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoBrowser.m; sourceTree = "<group>"; };
+		B3A769461C75D3BB009D3D66 /* UtilsMacors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UtilsMacors.h; sourceTree = "<group>"; };
+		B3A7694E1C75D414009D3D66 /* PhotoPickerCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoPickerCollectionViewCell.h; sourceTree = "<group>"; };
+		B3A7694F1C75D414009D3D66 /* PhotoPickerCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoPickerCollectionViewCell.m; sourceTree = "<group>"; };
+		B3A769501C75D414009D3D66 /* PhotoPickerGroupCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoPickerGroupCell.h; sourceTree = "<group>"; };
+		B3A769511C75D414009D3D66 /* PhotoPickerGroupCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoPickerGroupCell.m; sourceTree = "<group>"; };
+		B3A769521C75D414009D3D66 /* PhotoPickerGroupCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PhotoPickerGroupCell.xib; sourceTree = "<group>"; };
+		B3A769541C75D414009D3D66 /* PhotoAssets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoAssets.h; sourceTree = "<group>"; };
+		B3A769551C75D414009D3D66 /* PhotoAssets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoAssets.m; sourceTree = "<group>"; };
+		B3A769561C75D414009D3D66 /* PhotoPickerCollectionViewViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoPickerCollectionViewViewModel.h; sourceTree = "<group>"; };
+		B3A769571C75D414009D3D66 /* PhotoPickerCollectionViewViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoPickerCollectionViewViewModel.m; sourceTree = "<group>"; };
+		B3A769581C75D414009D3D66 /* PhotoPickerGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoPickerGroup.h; sourceTree = "<group>"; };
+		B3A769591C75D414009D3D66 /* PhotoPickerGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoPickerGroup.m; sourceTree = "<group>"; };
+		B3A7695A1C75D414009D3D66 /* PhotoPickerGroupCellViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoPickerGroupCellViewModel.h; sourceTree = "<group>"; };
+		B3A7695B1C75D414009D3D66 /* PhotoPickerGroupCellViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoPickerGroupCellViewModel.m; sourceTree = "<group>"; };
+		B3A7695C1C75D414009D3D66 /* PhotoPickerViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoPickerViewModel.h; sourceTree = "<group>"; };
+		B3A7695D1C75D414009D3D66 /* PhotoPickerViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoPickerViewModel.m; sourceTree = "<group>"; };
+		B3A7695E1C75D414009D3D66 /* PhotoPickerAssetsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoPickerAssetsViewController.h; sourceTree = "<group>"; };
+		B3A7695F1C75D414009D3D66 /* PhotoPickerAssetsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoPickerAssetsViewController.m; sourceTree = "<group>"; };
+		B3A769601C75D414009D3D66 /* PhotoPickerGroupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoPickerGroupViewController.h; sourceTree = "<group>"; };
+		B3A769611C75D414009D3D66 /* PhotoPickerGroupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoPickerGroupViewController.m; sourceTree = "<group>"; };
+		B3A769621C75D414009D3D66 /* PhotoPickerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoPickerManager.h; sourceTree = "<group>"; };
+		B3A769631C75D414009D3D66 /* PhotoPickerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoPickerManager.m; sourceTree = "<group>"; };
+		B3A769641C75D414009D3D66 /* PhotoPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoPickerViewController.h; sourceTree = "<group>"; };
+		B3A769651C75D414009D3D66 /* PhotoPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoPickerViewController.m; sourceTree = "<group>"; };
+		B3A769661C75D414009D3D66 /* PhotoUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoUtils.h; sourceTree = "<group>"; };
+		B3A769671C75D414009D3D66 /* PhotoUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoUtils.m; sourceTree = "<group>"; };
+		B3A769691C75D414009D3D66 /* PhotoPickerCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoPickerCollectionView.h; sourceTree = "<group>"; };
+		B3A7696A1C75D414009D3D66 /* PhotoPickerCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoPickerCollectionView.m; sourceTree = "<group>"; };
+		B3A7696B1C75D414009D3D66 /* PhotoPickerImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoPickerImageView.h; sourceTree = "<group>"; };
+		B3A7696C1C75D414009D3D66 /* PhotoPickerImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoPickerImageView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B34F6C971C744CBA0034DB18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB3ABB9D5877FC4E30FCD635 /* Pods_Moments.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17A5058D8BE212A0085CCA05 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3ED404C00B47B0617B64B67C /* Pods_Moments.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AB384DE5F014D16350AAA53F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				163E15701D86FDD50C72C6D4 /* Pods-Moments.debug.xcconfig */,
+				60B83ACB8D60BF435D9553BC /* Pods-Moments.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B34F6C911C744CBA0034DB18 = {
+			isa = PBXGroup;
+			children = (
+				B34F6C9C1C744CBA0034DB18 /* Moments */,
+				B34F6C9B1C744CBA0034DB18 /* Products */,
+				AB384DE5F014D16350AAA53F /* Pods */,
+				17A5058D8BE212A0085CCA05 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B34F6C9B1C744CBA0034DB18 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B34F6C9A1C744CBA0034DB18 /* Moments.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B34F6C9C1C744CBA0034DB18 /* Moments */ = {
+			isa = PBXGroup;
+			children = (
+				B34F6CA01C744CBA0034DB18 /* AppDelegate.h */,
+				B34F6CA11C744CBA0034DB18 /* AppDelegate.m */,
+				B34F6CF01C745D180034DB18 /* Utils.h */,
+				B34F6CF11C745D180034DB18 /* Utils.m */,
+				B34F6CCE1C7458660034DB18 /* Cells */,
+				B34F6CD81C7458AB0034DB18 /* Controllers */,
+				B34F6CDF1C7458D40034DB18 /* Views */,
+				B34F6CE01C7458E20034DB18 /* ViewModels */,
+				B3A768F11C75CC2F009D3D66 /* Library */,
+				B34F6C9D1C744CBA0034DB18 /* Supporting Files */,
+			);
+			path = Moments;
+			sourceTree = "<group>";
+		};
+		B34F6C9D1C744CBA0034DB18 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B34F6C9E1C744CBA0034DB18 /* main.m */,
+				B34F6CAE1C744CBA0034DB18 /* Info.plist */,
+				B34F6CA91C744CBA0034DB18 /* Assets.xcassets */,
+				B34F6CAB1C744CBA0034DB18 /* LaunchScreen.storyboard */,
+				B34F6CCD1C74575E0034DB18 /* Moments.pch */,
+				B34F6CF31C7467470034DB18 /* Moments.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B34F6CCE1C7458660034DB18 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				B3A768DF1C75731B009D3D66 /* MomentsBaseTableViewCell.h */,
+				B3A768E01C75731B009D3D66 /* MomentsBaseTableViewCell.m */,
+				B3A768E11C75731B009D3D66 /* MomentsCommentCell.h */,
+				B3A768E21C75731B009D3D66 /* MomentsCommentCell.m */,
+				B3A768E31C75731B009D3D66 /* MomentsImageCollectionViewCell.h */,
+				B3A768E41C75731B009D3D66 /* MomentsImageCollectionViewCell.m */,
+				B3A768E51C75731B009D3D66 /* MomentsTableViewCellFactory.h */,
+				B3A768E61C75731B009D3D66 /* MomentsTableViewCellFactory.m */,
+				B3A769361C75CEF2009D3D66 /* MomentsPublishPictureCell.h */,
+				B3A769371C75CEF2009D3D66 /* MomentsPublishPictureCell.m */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		B34F6CD81C7458AB0034DB18 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B34F6CD91C7458C40034DB18 /* MomentsPublishViewController.h */,
+				B34F6CDA1C7458C40034DB18 /* MomentsPublishViewController.m */,
+				B34F6CDB1C7458C40034DB18 /* MomentsViewController.h */,
+				B34F6CDC1C7458C40034DB18 /* MomentsViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		B34F6CDF1C7458D40034DB18 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B34F6CA61C744CBA0034DB18 /* Main.storyboard */,
+				B34F6CED1C7459F30034DB18 /* MomentsHeaderView.h */,
+				B34F6CEE1C7459F30034DB18 /* MomentsHeaderView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B34F6CE01C7458E20034DB18 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				B34F6CE41C7459580034DB18 /* MomentsCellViewModel.h */,
+				B34F6CE51C7459580034DB18 /* MomentsCellViewModel.m */,
+				B34F6CE61C7459580034DB18 /* MomentsViewModel.h */,
+				B34F6CE71C7459580034DB18 /* MomentsViewModel.m */,
+				B34F6CEA1C7459730034DB18 /* MomentsCommentCellViewModel.h */,
+				B34F6CEB1C7459730034DB18 /* MomentsCommentCellViewModel.m */,
+				B3A768EB1C75AAD0009D3D66 /* MomentsModel.h */,
+				B3A768EC1C75AAD0009D3D66 /* MomentsModel.m */,
+				B3A768EE1C75CB31009D3D66 /* MomentsPublishViewModel.h */,
+				B3A768EF1C75CB31009D3D66 /* MomentsPublishViewModel.m */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		B3A768F11C75CC2F009D3D66 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				B3A7694C1C75D414009D3D66 /* PhotoPicker */,
+				B3A769391C75D3BB009D3D66 /* PhotoBrowser */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		B3A769391C75D3BB009D3D66 /* PhotoBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				B3A7693A1C75D3BB009D3D66 /* CustomViews */,
+				B3A769411C75D3BB009D3D66 /* Model */,
+				B3A769441C75D3BB009D3D66 /* PhotoBrowser.h */,
+				B3A769451C75D3BB009D3D66 /* PhotoBrowser.m */,
+				B3A769461C75D3BB009D3D66 /* UtilsMacors.h */,
+			);
+			path = PhotoBrowser;
+			sourceTree = "<group>";
+		};
+		B3A7693A1C75D3BB009D3D66 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				B3A7693B1C75D3BB009D3D66 /* PhotoLoadingView.h */,
+				B3A7693C1C75D3BB009D3D66 /* PhotoLoadingView.m */,
+				B3A7693D1C75D3BB009D3D66 /* PhotoProgressView.h */,
+				B3A7693E1C75D3BB009D3D66 /* PhotoProgressView.m */,
+				B3A7693F1C75D3BB009D3D66 /* PhotoView.h */,
+				B3A769401C75D3BB009D3D66 /* PhotoView.m */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		B3A769411C75D3BB009D3D66 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B3A769421C75D3BB009D3D66 /* Photo.h */,
+				B3A769431C75D3BB009D3D66 /* Photo.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B3A7694C1C75D414009D3D66 /* PhotoPicker */ = {
+			isa = PBXGroup;
+			children = (
+				B3A7694D1C75D414009D3D66 /* Cells */,
+				B3A769531C75D414009D3D66 /* Model */,
+				B3A7695E1C75D414009D3D66 /* PhotoPickerAssetsViewController.h */,
+				B3A7695F1C75D414009D3D66 /* PhotoPickerAssetsViewController.m */,
+				B3A769601C75D414009D3D66 /* PhotoPickerGroupViewController.h */,
+				B3A769611C75D414009D3D66 /* PhotoPickerGroupViewController.m */,
+				B3A769621C75D414009D3D66 /* PhotoPickerManager.h */,
+				B3A769631C75D414009D3D66 /* PhotoPickerManager.m */,
+				B3A769641C75D414009D3D66 /* PhotoPickerViewController.h */,
+				B3A769651C75D414009D3D66 /* PhotoPickerViewController.m */,
+				B3A769661C75D414009D3D66 /* PhotoUtils.h */,
+				B3A769671C75D414009D3D66 /* PhotoUtils.m */,
+				B3A769681C75D414009D3D66 /* Views */,
+			);
+			path = PhotoPicker;
+			sourceTree = "<group>";
+		};
+		B3A7694D1C75D414009D3D66 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				B3A7694E1C75D414009D3D66 /* PhotoPickerCollectionViewCell.h */,
+				B3A7694F1C75D414009D3D66 /* PhotoPickerCollectionViewCell.m */,
+				B3A769501C75D414009D3D66 /* PhotoPickerGroupCell.h */,
+				B3A769511C75D414009D3D66 /* PhotoPickerGroupCell.m */,
+				B3A769521C75D414009D3D66 /* PhotoPickerGroupCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		B3A769531C75D414009D3D66 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B3A769541C75D414009D3D66 /* PhotoAssets.h */,
+				B3A769551C75D414009D3D66 /* PhotoAssets.m */,
+				B3A769561C75D414009D3D66 /* PhotoPickerCollectionViewViewModel.h */,
+				B3A769571C75D414009D3D66 /* PhotoPickerCollectionViewViewModel.m */,
+				B3A769581C75D414009D3D66 /* PhotoPickerGroup.h */,
+				B3A769591C75D414009D3D66 /* PhotoPickerGroup.m */,
+				B3A7695A1C75D414009D3D66 /* PhotoPickerGroupCellViewModel.h */,
+				B3A7695B1C75D414009D3D66 /* PhotoPickerGroupCellViewModel.m */,
+				B3A7695C1C75D414009D3D66 /* PhotoPickerViewModel.h */,
+				B3A7695D1C75D414009D3D66 /* PhotoPickerViewModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B3A769681C75D414009D3D66 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B3A769691C75D414009D3D66 /* PhotoPickerCollectionView.h */,
+				B3A7696A1C75D414009D3D66 /* PhotoPickerCollectionView.m */,
+				B3A7696B1C75D414009D3D66 /* PhotoPickerImageView.h */,
+				B3A7696C1C75D414009D3D66 /* PhotoPickerImageView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B34F6C991C744CBA0034DB18 /* Moments */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B34F6CB11C744CBA0034DB18 /* Build configuration list for PBXNativeTarget "Moments" */;
+			buildPhases = (
+				C3FA393ABC23AC846ABB7494 /* Check Pods Manifest.lock */,
+				B34F6C961C744CBA0034DB18 /* Sources */,
+				B34F6C971C744CBA0034DB18 /* Frameworks */,
+				B34F6C981C744CBA0034DB18 /* Resources */,
+				CA1EAFB350231D903B0B4845 /* Embed Pods Frameworks */,
+				2CD279A1629EDC6BB22819F6 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Moments;
+			productName = Moments;
+			productReference = B34F6C9A1C744CBA0034DB18 /* Moments.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B34F6C921C744CBA0034DB18 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Thomson;
+				TargetAttributes = {
+					B34F6C991C744CBA0034DB18 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = B34F6C951C744CBA0034DB18 /* Build configuration list for PBXProject "Moments" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B34F6C911C744CBA0034DB18;
+			productRefGroup = B34F6C9B1C744CBA0034DB18 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B34F6C991C744CBA0034DB18 /* Moments */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B34F6C981C744CBA0034DB18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B34F6CAD1C744CBA0034DB18 /* LaunchScreen.storyboard in Resources */,
+				B34F6CAA1C744CBA0034DB18 /* Assets.xcassets in Resources */,
+				B3A7696F1C75D414009D3D66 /* PhotoPickerGroupCell.xib in Resources */,
+				B34F6CF41C7467470034DB18 /* Moments.plist in Resources */,
+				B34F6CA81C744CBA0034DB18 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2CD279A1629EDC6BB22819F6 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Moments/Pods-Moments-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C3FA393ABC23AC846ABB7494 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CA1EAFB350231D903B0B4845 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Moments/Pods-Moments-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B34F6C961C744CBA0034DB18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3A768E71C75731B009D3D66 /* MomentsBaseTableViewCell.m in Sources */,
+				B3A7696D1C75D414009D3D66 /* PhotoPickerCollectionViewCell.m in Sources */,
+				B34F6CEC1C7459730034DB18 /* MomentsCommentCellViewModel.m in Sources */,
+				B3A769731C75D414009D3D66 /* PhotoPickerGroupCellViewModel.m in Sources */,
+				B3A769481C75D3BB009D3D66 /* PhotoProgressView.m in Sources */,
+				B34F6CE91C7459580034DB18 /* MomentsViewModel.m in Sources */,
+				B34F6CDE1C7458C40034DB18 /* MomentsViewController.m in Sources */,
+				B3A769751C75D414009D3D66 /* PhotoPickerAssetsViewController.m in Sources */,
+				B34F6CF21C745D180034DB18 /* Utils.m in Sources */,
+				B3A768E81C75731B009D3D66 /* MomentsCommentCell.m in Sources */,
+				B34F6CDD1C7458C40034DB18 /* MomentsPublishViewController.m in Sources */,
+				B3A7694A1C75D3BB009D3D66 /* Photo.m in Sources */,
+				B3A769771C75D414009D3D66 /* PhotoPickerManager.m in Sources */,
+				B34F6CA21C744CBA0034DB18 /* AppDelegate.m in Sources */,
+				B3A769471C75D3BB009D3D66 /* PhotoLoadingView.m in Sources */,
+				B3A769721C75D414009D3D66 /* PhotoPickerGroup.m in Sources */,
+				B3A768E91C75731B009D3D66 /* MomentsImageCollectionViewCell.m in Sources */,
+				B3A769701C75D414009D3D66 /* PhotoAssets.m in Sources */,
+				B34F6CEF1C7459F30034DB18 /* MomentsHeaderView.m in Sources */,
+				B3A768EA1C75731B009D3D66 /* MomentsTableViewCellFactory.m in Sources */,
+				B3A769711C75D414009D3D66 /* PhotoPickerCollectionViewViewModel.m in Sources */,
+				B3A7697B1C75D414009D3D66 /* PhotoPickerImageView.m in Sources */,
+				B3A768F01C75CB31009D3D66 /* MomentsPublishViewModel.m in Sources */,
+				B3A769491C75D3BB009D3D66 /* PhotoView.m in Sources */,
+				B3A769761C75D414009D3D66 /* PhotoPickerGroupViewController.m in Sources */,
+				B3A769741C75D414009D3D66 /* PhotoPickerViewModel.m in Sources */,
+				B34F6C9F1C744CBA0034DB18 /* main.m in Sources */,
+				B3A769381C75CEF2009D3D66 /* MomentsPublishPictureCell.m in Sources */,
+				B3A7694B1C75D3BB009D3D66 /* PhotoBrowser.m in Sources */,
+				B34F6CE81C7459580034DB18 /* MomentsCellViewModel.m in Sources */,
+				B3A769791C75D414009D3D66 /* PhotoUtils.m in Sources */,
+				B3A769781C75D414009D3D66 /* PhotoPickerViewController.m in Sources */,
+				B3A7696E1C75D414009D3D66 /* PhotoPickerGroupCell.m in Sources */,
+				B3A768ED1C75AAD0009D3D66 /* MomentsModel.m in Sources */,
+				B3A7697A1C75D414009D3D66 /* PhotoPickerCollectionView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B34F6CA61C744CBA0034DB18 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B34F6CA71C744CBA0034DB18 /* Base */,
+			);
+			name = Main.storyboard;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		B34F6CAB1C744CBA0034DB18 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B34F6CAC1C744CBA0034DB18 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B34F6CAF1C744CBA0034DB18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B34F6CB01C744CBA0034DB18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B34F6CB21C744CBA0034DB18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 163E15701D86FDD50C72C6D4 /* Pods-Moments.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Moments/Moments.pch";
+				INFOPLIST_FILE = Moments/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.thomson.Moments;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B34F6CB31C744CBA0034DB18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60B83ACB8D60BF435D9553BC /* Pods-Moments.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Moments/Moments.pch";
+				INFOPLIST_FILE = Moments/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.thomson.Moments;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B34F6C951C744CBA0034DB18 /* Build configuration list for PBXProject "Moments" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B34F6CAF1C744CBA0034DB18 /* Debug */,
+				B34F6CB01C744CBA0034DB18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B34F6CB11C744CBA0034DB18 /* Build configuration list for PBXNativeTarget "Moments" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B34F6CB21C744CBA0034DB18 /* Debug */,
+				B34F6CB31C744CBA0034DB18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B34F6C921C744CBA0034DB18 /* Project object */;
+}
